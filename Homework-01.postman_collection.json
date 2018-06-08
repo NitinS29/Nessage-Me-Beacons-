@@ -1,0 +1,442 @@
+{
+	"id": "8b6db310-113e-1bd7-73ed-f52f9a565952",
+	"name": "Homework-01",
+	"description": "",
+	"order": [
+		"3f3db353-ad5c-b16e-b36b-608928fdddbf",
+		"ed27694c-d801-7079-9612-666a97d6c1c6",
+		"baed89df-104e-7415-58dd-6f485d18985c",
+		"4a2b4c78-5884-e4a0-5925-855af26039cd",
+		"6b8e189c-cf53-6f43-6407-1d286ff34245",
+		"70377c29-00e9-1ce4-154e-1098543d58cf",
+		"2b310beb-a436-b373-5421-6335d9d91b42",
+		"c107acc7-3263-84e0-854e-fdf40525e60a",
+		"1286cb0f-a85d-e8a0-44dd-1e38b0fa2571",
+		"6463ce67-5eaa-a973-0557-49ed41f6a647"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1505860610018,
+	"owner": "1794861",
+	"public": false,
+	"requests": [
+		{
+			"id": "1286cb0f-a85d-e8a0-44dd-1e38b0fa2571",
+			"headers": "",
+			"headerData": [],
+			"url": "homework01.azurewebsites.net/api/Messages/EditReadStatus?messageId=7",
+			"queryParams": [
+				{
+					"key": "messageId",
+					"value": "7",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8b6db310-113e-1bd7-73ed-f52f9a565952",
+			"data": null,
+			"dataMode": "params",
+			"name": "Edit Read Status",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1505975066089,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "2b310beb-a436-b373-5421-6335d9d91b42",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6ImFnaWJzb24iLCJzdWIiOiJhZ2lic29uIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImV4cCI6MTUwNTkzODgzNywibmJmIjoxNTA1OTM3MDM3fQ.RdZC3k8BatF88YAllPIK1TJ6YDxwK2-mde_5pM1su1Q\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6ImFnaWJzb24iLCJzdWIiOiJhZ2lic29uIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImV4cCI6MTUwNTkzODgzNywibmJmIjoxNTA1OTM3MDM3fQ.RdZC3k8BatF88YAllPIK1TJ6YDxwK2-mde_5pM1su1Q",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://homework01.azurewebsites.net/api/Account/UserInfo?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6ImRjOTk5ZGNlLWZjODEtNDRlZC04YTNkLWJhOGM3NzE5YTc5MiIsInN1YiI6ImFnaWJzb24iLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDAvIiwiZXhwIjoxNTA1OTQ1NDQ4LCJuYmYiOjE1MDU5NDM2NDh9.ilL7iGIxY8-M1sYIZeLQ8scnx4dlFMK4-Ut1shOWMC4",
+			"queryParams": [
+				{
+					"key": "token",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6ImRjOTk5ZGNlLWZjODEtNDRlZC04YTNkLWJhOGM3NzE5YTc5MiIsInN1YiI6ImFnaWJzb24iLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDAvIiwiZXhwIjoxNTA1OTQ1NDQ4LCJuYmYiOjE1MDU5NDM2NDh9.ilL7iGIxY8-M1sYIZeLQ8scnx4dlFMK4-Ut1shOWMC4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8b6db310-113e-1bd7-73ed-f52f9a565952",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get user info",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1505944397218,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "3f3db353-ad5c-b16e-b36b-608928fdddbf",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://homework01.azurewebsites.net/oauth2/token",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8b6db310-113e-1bd7-73ed-f52f9a565952",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "agibson",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "test1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1505860611718,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "4a2b4c78-5884-e4a0-5925-855af26039cd",
+			"headers": "",
+			"headerData": [],
+			"url": "http://homework01.azurewebsites.net/api/Messages",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8b6db310-113e-1bd7-73ed-f52f9a565952",
+			"data": null,
+			"dataMode": "params",
+			"name": "Messages",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1505863475752,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6463ce67-5eaa-a973-0557-49ed41f6a647",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6ImFnaWJzb24iLCJzdWIiOiJhZ2lic29uIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImV4cCI6MTUwNTkzODgzNywibmJmIjoxNTA1OTM3MDM3fQ.RdZC3k8BatF88YAllPIK1TJ6YDxwK2-mde_5pM1su1Q\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6ImFnaWJzb24iLCJzdWIiOiJhZ2lic29uIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImV4cCI6MTUwNTkzODgzNywibmJmIjoxNTA1OTM3MDM3fQ.RdZC3k8BatF88YAllPIK1TJ6YDxwK2-mde_5pM1su1Q",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://homework01.azurewebsites.net/api/Messages",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8b6db310-113e-1bd7-73ed-f52f9a565952",
+			"data": [
+				{
+					"key": "MessageBody",
+					"value": "Testing by usha",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "IsRead",
+					"value": "false",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "IsUnLocked",
+					"value": "false",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "RegionId",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "SenderId",
+					"value": "accfb6ba-6b1a-4ce1-b397-e36ee67444ed",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ReceiverId",
+					"value": "954166d3-cd60-4c25-9d2a-1ccbed2aa97e",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "MessageTime",
+					"value": "1/1/0001 12:00:00 AM",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Send message",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1506004490449,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6b8e189c-cf53-6f43-6407-1d286ff34245",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://homework01.azurewebsites.net/api/Messages",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8b6db310-113e-1bd7-73ed-f52f9a565952",
+			"data": [
+				{
+					"key": "MessageTime",
+					"value": "1/1/0001 12:00:00 AM",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "IsRead",
+					"value": "false",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "RegionId",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "SenderId",
+					"value": "accfb6ba-6b1a-4ce1-b397-e36ee67444ed",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ReceiverId",
+					"value": "b5a0df98-3b5e-460c-8bd5-bf9fd3ab5241",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "MessageBody",
+					"value": "Test message-3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Send Message",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1505940655494,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "70377c29-00e9-1ce4-154e-1098543d58cf",
+			"headers": "",
+			"headerData": [],
+			"url": "http://homework01.azurewebsites.net/api/Messages?receiverId=b5a0df98-3b5e-460c-8bd5-bf9fd3ab5241",
+			"queryParams": [
+				{
+					"key": "receiverId",
+					"value": "b5a0df98-3b5e-460c-8bd5-bf9fd3ab5241",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8b6db310-113e-1bd7-73ed-f52f9a565952",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get Messages for user ",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1505941318912,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "baed89df-104e-7415-58dd-6f485d18985c",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6ImFnaWJzb24iLCJzdWIiOiJhZ2lic29uIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImV4cCI6MTUwNTY4Mzc2OCwibmJmIjoxNTA1NjgxOTY4fQ.W-u2hOkaouND7HKKziajxmItT96EAgRFPYdHq0oDMVU\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6ImFnaWJzb24iLCJzdWIiOiJhZ2lic29uIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImV4cCI6MTUwNTY4Mzc2OCwibmJmIjoxNTA1NjgxOTY4fQ.W-u2hOkaouND7HKKziajxmItT96EAgRFPYdHq0oDMVU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://homework01.azurewebsites.net/api/Users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8b6db310-113e-1bd7-73ed-f52f9a565952",
+			"data": null,
+			"dataMode": "params",
+			"name": "Users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1505863211996,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c107acc7-3263-84e0-854e-fdf40525e60a",
+			"headers": "",
+			"headerData": [],
+			"url": "homework01.azurewebsites.net/api/Messages/EditLockStatus?messageId=7",
+			"queryParams": [
+				{
+					"key": "messageId",
+					"value": "7",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8b6db310-113e-1bd7-73ed-f52f9a565952",
+			"data": null,
+			"dataMode": "params",
+			"name": "Edit Lock Status",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1505975015523,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ed27694c-d801-7079-9612-666a97d6c1c6",
+			"headers": "",
+			"headerData": [],
+			"url": "http://homework01.azurewebsites.net/api/Regions",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8b6db310-113e-1bd7-73ed-f52f9a565952",
+			"data": null,
+			"dataMode": "params",
+			"name": "Regions",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1505860626340,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

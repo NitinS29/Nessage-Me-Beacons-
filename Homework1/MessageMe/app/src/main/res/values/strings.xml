@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MessageMe</string>
+    <string name="login_lbl">Login</string>
+    <string name="newUser_lbl">New User ?</string>
+    <string name="signuphdr_lbl">Enter Information</string>
+    <string name="acc_lbl">Sign Up</string>
+    <string name="send_lbl">Send</string>
+    <item name="tvSenderName" type="id"/>
+    <item name="tvDate" type="id"/>
+    <item name="tvTime" type="id"/>
+</resources>
